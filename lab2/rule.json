@@ -1,0 +1,678 @@
+[
+    {
+        "rulename": "determine-camera-dropped",
+        "question": "Has the camera been dropped? (yes/no)?",
+        "priority": 0,
+        "value": [
+            "yes",
+            "no"
+        ],
+        "condition": {
+        "operation": "&",
+        "facts": [
+        {
+          "name": "camera-dropped",
+          "value": ""
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+      "updateFact": {
+      "name": "camera-dropped",
+      "value": ""
+    }
+  },
+    {
+        "rulename": "determine-visible-damage",
+        "question": "Is there any visible damage? (yes/no)?",
+        "priority": 0,
+        "value": [
+            "yes",
+            "no"
+        ],
+        "condition": {
+        "operation": "&",
+        "facts": [
+        {
+          "name": "visible-damage",
+          "value": ""
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+      "updateFact": {
+      "name": "visible-damage",
+      "value": ""
+    }
+  },
+    {
+        "rulename": "determine-prev-film",
+        "question": "Had problems with the previous film? (yes/no)?",
+        "priority": 0,
+        "value": [
+            "yes",
+            "no"
+        ],
+        "condition": {
+        "operation": "&",
+        "facts": [
+        {
+          "name": "prev-film",
+          "value": ""
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+      "updateFact": {
+      "name": "prev-film",
+      "value": ""
+    }
+  },
+    {
+        "rulename": "determine-rewind-but",
+        "question": "Is the rewind button stable? (yes/no)?",
+        "priority": 0,
+        "value": [
+            "yes",
+            "no"
+        ],
+        "condition": {
+        "operation": "&",
+        "facts": [
+        {
+          "name": "rewind-but",
+          "value": ""
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+      "updateFact": {
+      "name": "rewind-but",
+      "value": ""
+    }
+  },
+    {
+        "rulename": "determine-moisture-entered",
+        "question": "Could moisture get in? (yes/no)?",
+        "priority": 0,
+        "value": [
+            "yes",
+            "no"
+        ],
+        "condition": {
+        "operation": "&",
+        "facts": [
+        {
+          "name": "moisture-entered",
+          "value": ""
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+      "updateFact": {
+      "name": "moisture-entered",
+      "value": ""
+    }
+  },
+     {
+        "rulename": "determine-shelf-life",
+        "question": "Has the film expired? (yes/no)?",
+        "priority": 0,
+        "value": [
+            "yes",
+            "no"
+        ],
+        "condition": {
+        "operation": "&",
+        "facts": [
+        {
+          "name": "shelf-life",
+          "value": ""
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+      "updateFact": {
+      "name": "shelf-life",
+      "value": ""
+    }
+  },
+    {
+        "rulename": "determine-light-hit",
+        "question": "Could light have hit the film? (yes/no)?",
+        "priority": 0,
+        "value": [
+            "yes",
+            "no"
+        ],
+        "condition": {
+        "operation": "&",
+        "facts": [
+        {
+          "name": "light-hit",
+          "value": ""
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+      "updateFact": {
+      "name": "light-hit",
+      "value": ""
+    }
+  },
+    {
+        "rulename": "determine-curtains-stably",
+        "question": "Do the curtains work stably? (yes/no)?",
+        "priority": 0,
+        "value": [
+            "yes",
+            "no"
+        ],
+        "condition": {
+        "operation": "&",
+        "facts": [
+        {
+          "name": "curtains-stably",
+          "value": ""
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+      "updateFact": {
+      "name": "curtains-stably",
+      "value": ""
+    }
+  },
+   {
+    "rulename": "mechanical-defect-yes",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "mechanical-defect",
+          "value": ""
+        },
+        {
+          "name": "camera-dropped",
+          "value": true
+        },
+          {
+          "name": "visible-damage",
+          "value": true
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "mechanical-defect",
+      "auto": true,
+      "value": true
+    }
+  },
+     {
+    "rulename": "mechanical-defect-no",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "mechanical-defect",
+          "value": ""
+        },
+        {
+          "name": "camera-dropped",
+          "value": false
+        },
+          {
+          "name": "visible-damage",
+          "value": false
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "mechanical-defect",
+      "auto": true,
+      "value": false
+    }
+  },
+     {
+    "rulename": "curtains-broken-yes",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "curtains-broken",
+          "value": ""
+        },
+        {
+          "name": "mechanical-defect",
+          "value": true
+        },
+        {
+          "name": "curtains-stably",
+          "value": false
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "curtains-broken",
+      "auto": true,
+      "value": true
+    }
+  },
+     {
+    "rulename": "curtains-broken-no",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "curtains-broken",
+          "value": ""
+        },
+        {
+          "name": "mechanical-defect",
+          "value": true
+        },
+        {
+          "name": "curtains-stably",
+          "value": false
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "curtains-broken",
+      "auto": true,
+      "value": false
+    }
+  },
+    {
+    "rulename": "rewind-broken-yes",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "rewind-broken",
+          "value": ""
+        },
+        {
+          "name": "mechanical-defect",
+          "value": true
+        },
+        {
+          "name": "rewind-but",
+          "value": false
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "rewind-broken",
+      "auto": true,
+      "value": true
+    }
+  },
+    {
+    "rulename": "rewind-broken-no",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "rewind-broken",
+          "value": ""
+        },
+        {
+          "name": "mechanical-defect",
+          "value": true
+        },
+        {
+          "name": "rewind-but",
+          "value": true
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "rewind-broken",
+      "auto": true,
+      "value": false
+    }
+  },
+    {
+    "rulename": "film-problem-yes",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "film-problem",
+          "value": ""
+        },
+        {
+          "name": "mechanical-defect",
+          "value": false
+        },
+        {
+          "name": "prev-film",
+          "value": false
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "film-problem",
+      "auto": true,
+      "value": true
+    }
+  },
+    {
+    "rulename": "film-problem-no",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "film-problem",
+          "value": ""
+        },
+        {
+          "name": "shelf-life",
+          "value": false
+        },
+        {
+          "name": "light-hit",
+          "value": false
+        },
+          {
+          "name": "moisture-entered",
+          "value": false
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "film-problem",
+      "auto": true,
+      "value": false
+    }
+  },
+    {
+    "rulename": "film-light-yes",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "film-light",
+          "value": ""
+        },
+        {
+          "name": "film-problem",
+          "value": true
+        },
+        {
+          "name": "light-hit",
+          "value": true
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "film-light",
+      "auto": true,
+      "value": true
+    }
+  },
+     {
+    "rulename": "film-light-no",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "film-light",
+          "value": ""
+        },
+        {
+          "name": "light-hit",
+          "value": false
+        },
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "film-light",
+      "auto": true,
+      "value": false
+    }
+  },
+    {
+    "rulename": "camera-repair-curt",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "prev-film",
+          "value": true
+        },
+        {
+           "name": "curtains-broken",
+           "value": true
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "problem",
+      "value": "The curtains are broken. Contact service."
+    }
+  },
+    {
+    "rulename": "camera-repair-rew",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "prev-film",
+          "value": true
+        },
+        {
+           "name": "rewind-broken",
+           "value": true
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "problem",
+      "value": "The rewind button is broken.Contact service."
+    }
+  },
+    {
+    "rulename": "unknown-damage",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "operation": "&",
+          "facts": [
+            {
+              "name": "film-problem",
+              "value": false
+            },
+            {
+              "name": "mechanical-defect",
+              "value": false
+            }
+          ]
+        },
+        {
+          "operation": "&",
+          "facts": [
+            {
+              "name": "rewind-broken",
+              "value": false
+            },
+            {
+              "name": "curtains-broken",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+      "updateFact": {
+      "name": "problem",
+      "value": "Most likely the camera is faulty"
+    }
+  },
+
+    {
+    "rulename": "new-film",
+    "question": "",
+    "priority": 0,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "operation": "&",
+          "facts": [
+            {
+              "name": "mechanical-defect",
+              "value": false
+            }
+          ]
+        },
+        {
+          "operation": "||",
+          "facts": [
+            {
+              "name": "shelf-life",
+              "value": true
+            },
+            {
+              "name": "film-light",
+              "value": true
+            },
+              {
+              "name": "moisture-entered",
+              "value": true
+            }
+          ]
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "problem",
+      "value": "Use new film."
+    }
+  },
+    {
+    "rulename": "error",
+    "question": "",
+    "priority": -10,
+    "value": [],
+    "condition": {
+      "operation": "&",
+      "facts": [
+        {
+          "name": "problem",
+          "value": ""
+        }
+      ]
+    },
+    "updateFact": {
+      "name": "problem",
+      "value": "Error"
+    }
+  }
+]
