@@ -1,0 +1,53 @@
+C:\Users\Admin\Desktop\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.exe
+C:\Users\Admin\Desktop\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.deps.json
+C:\Users\Admin\Desktop\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.runtimeconfig.json
+C:\Users\Admin\Desktop\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.dll
+C:\Users\Admin\Desktop\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.pdb
+C:\Users\Admin\Desktop\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.dll
+C:\Users\Admin\Desktop\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.pdb
+C:\Users\Admin\Desktop\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.genruntimeconfig.cache
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.exe
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.deps.json
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.runtimeconfig.json
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.dll
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.pdb
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.AssemblyInfo.cs
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.dll
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.pdb
+C:\Users\Admin\source\repos\DashaPyshnenko\IISIT\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.genruntimeconfig.cache
+H:\IIS_labs\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.exe
+H:\IIS_labs\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.deps.json
+H:\IIS_labs\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.runtimeconfig.json
+H:\IIS_labs\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.runtimeconfig.dev.json
+H:\IIS_labs\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.dll
+H:\IIS_labs\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.pdb
+H:\IIS_labs\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.csprojAssemblyReference.cache
+H:\IIS_labs\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.AssemblyInfoInputs.cache
+H:\IIS_labs\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.AssemblyInfo.cs
+H:\IIS_labs\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.csproj.CoreCompileInputs.cache
+H:\IIS_labs\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.dll
+H:\IIS_labs\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.pdb
+H:\IIS_labs\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.genruntimeconfig.cache
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.exe
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.deps.json
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.runtimeconfig.json
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.runtimeconfig.dev.json
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.dll
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.pdb
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.csproj.AssemblyReference.cache
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.GeneratedMSBuildEditorConfig.editorconfig
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.AssemblyInfoInputs.cache
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.AssemblyInfo.cs
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.csproj.CoreCompileInputs.cache
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.dll
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.pdb
+D:\my\study\7 семестр\Интеллектуальные ИСИТ\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\iis-cc9d789befa8f59a89cd1b227dfe244ed6dc8a17\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.genruntimeconfig.cache
